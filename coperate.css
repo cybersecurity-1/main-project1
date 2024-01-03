@@ -1,0 +1,753 @@
+.logo{
+        font-size: 30px;
+        margin: 0;
+          margin-right: 0px;
+        padding: 0;
+        line-height: 1;
+        font-weight: 500;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        text-align: start;
+
+}
+.light-1{
+    background-color:transparent;
+}
+.navbar ul{
+    display: flex;
+    list-style: none;
+}
+.navbar a{
+
+    padding: 10px 0px 10px 30px ;
+    text-decoration: none;
+
+}
+.navbar a i{
+    font-size: 12px;
+}
+.navbar .getstarted{
+    padding:8px 20px ;
+    margin-left: 40px;
+    text-decoration: none;
+    border: 2px solid rgb(0, 132, 255);
+    border-radius: 40px;
+    width: 120px;
+  text-align: center;
+  letter-spacing: 1px;
+
+}
+/* .bi-list::before{
+    content: "\f479";
+} */
+#header{
+    padding: 15px;
+}
+  /* .ulmovee{
+    display: flex;
+    justify-content: flex-end;
+}   */
+.inbox0{
+    padding-top: 100px;
+}
+/* .................................sec1................................ */
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Jost", sans-serif;
+  }
+#sec1{
+    width: 100%;
+    min-height: 80vh;
+    background: #37517e;
+}
+
+.p1{
+    color: rgb(197, 190, 190);
+    font-size: 1.8vw;
+    margin-bottom: 50px;
+}
+.getstarted2{
+    text-decoration: none;
+    color: white;
+    border: 2px solid rgb(0, 132, 255);
+    padding: 9px 30px;
+    border-radius: 40px;
+    background-color: rgb(0, 132, 255) ;
+    letter-spacing: 1px;
+    margin: 10px 0 0 0;
+}
+.btn-watch-video {
+    display: flex;
+    align-items: center;
+    margin: 10px 0 0 25px;
+
+}
+
+.btn-watch-video i{
+ margin-right: 8px;
+}
+ .animated{
+    animation: up-down 2s ease-in-out infinite alternate-reverse both;
+}
+@keyframes up-down{
+
+   0%{
+    transform: translateY(10px);
+   }
+   100%{
+    transform: translateY(-10px);
+   }
+}
+/* ...........................................sec2...................................... */
+.sec2{
+    background-color: rgba(194, 193, 193, 0.356);
+    padding: 12px 0;
+}
+.sec2 img{
+    max-width: 45%;
+    padding: 15px 0px;
+    filter: grayscale();
+    transition:  0.5s ;
+}
+.sec2 img:hover{
+filter: none;
+transform: scale(1.1);
+}
+/* ............................................sec3...................................... */
+.section-title{
+margin-top: 60px;
+color: #37517e;
+}
+.section-title h1{
+    position: relative;
+    padding-bottom: 15px;
+}
+.section-title h1::before{
+ content: "";
+background-color:gray;
+display: block;
+ width: 120px;
+ height: 1px;
+ position: absolute;
+bottom: 1px;
+ left: calc(50% - 60px);
+}
+.section-title h1::after{
+    content: "";
+    background-color:rgb(17, 151, 204);
+    display: block;
+    width: 40px;
+    height: 3px;
+    position: absolute;
+    bottom: 0px;
+    left: calc(50% - 20px);
+}
+.section-title{
+    margin-bottom: 50px;
+}
+.ul1{
+    font-size: large;
+    padding-left: 0px;
+    line-height: 35px;
+}
+.button-1{
+    width: 175px;
+    height: 50px;
+    background-color: transparent;
+    border: 2px solid rgb(68, 185, 231);
+    color: rgb(68, 185, 231);;
+    border-radius: 5px;
+}
+
+
+.button-1:hover{
+background-color: rgb(68, 185, 231);
+color: white;
+
+}
+/* .........................................sec4............................................. */
+.sec4{
+    /* height: 100vh; */
+    background-color: rgba(194, 189, 189, 0.356);
+}
+.first-1{
+    min-width: 98%;
+    min-height: 60px;
+    background-color: white;
+    border-radius: 3px;
+    position: relative;
+    /* display: flex;
+    align-items: center; */
+    margin-bottom: 20px;
+
+}
+.after-01{
+    margin-left: 20px;
+}
+.one-01{
+    font-size: 18px;
+    color: #47b2e4;
+    font-weight: bold;
+    margin-left: 20px;
+}
+.arrow{
+     position: absolute;
+    right: 50px; 
+
+}
+.inbox-41{
+    padding-top:20% ;
+    margin-left: 15%;
+}
+.inbox-42{
+    padding-top: 90px;
+    display: flex;
+    justify-content: end;
+}
+
+.sec4-img  {
+    width: 85%;
+    
+}
+/* ......................................secc5..................................... */
+.inbox52-h1{
+    line-height: 35px;
+    color:#37517e ;
+    margin-top: 60px;
+    font-weight: bolder;
+    font-size:32px;
+}
+.progress-1{
+    height: 10px !important;
+    border-radius: 0px !important;
+
+}
+.progress-bar{
+    background-color: #194aa5 !important;
+}
+
+.progress-container .skill{
+    color: rgb(101, 26, 223);
+    text-transform: uppercase;
+}
+.progress-container .skill .val{
+    float: inline-end;
+}
+.p-length{
+height: 60px;
+}
+/* ............................................section6..................................... */
+#sec6{
+    min-height: 90vh;
+    background-color: #f3f5fa;
+}
+.section-title1 h1{
+color: #194aa5;
+position: relative;
+
+}
+.section-title1 h1::before{
+    content: "";
+    display: block;
+    width: 120px;
+    height: 1px;
+    background-color: rgba(128, 128, 128, 0.596);
+    position: absolute;
+    bottom: 1px;
+     left: calc(50% - 60px);
+
+
+}
+.section-title1 h1::after{
+    content: "";
+    display: block;
+    width: 50px;
+    height: 4px;
+    background-color: rgb(17, 151, 204);
+    position: absolute;
+    bottom: 0px;
+     left: calc(50% - 25px);
+
+}
+.sec6-inbox{
+    min-height: 290px;
+    background-color: white;
+    padding: 40px;
+    box-shadow: 0px 0px 10px rgb(119, 116, 116);
+    transition: 0.4s ease-in-out;
+    margin: 15px 0px;
+}
+.sec6-inbox:hover{
+    transform: translateY(-20px);
+}
+.color-h{
+    color: #194aa5;
+}
+/* .......................................sec7............................................. */
+.sec7{
+    background-image:url(bulding.jpg) ;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.call-action{
+    height: 350px;
+    padding-top: 110px;
+}
+.call-action-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.to-action{
+    width: 200px;
+    height: 50px;
+
+    color: white;
+    border: 2px solid white;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.to-action:hover{
+    background: #47b2e4;
+    border: 2px solid #47b2e4;
+}
+.sec7-inbox{
+    background-color: #06204d;
+    opacity: 0.8;
+}
+/* .........................................sec8............................................ */
+.sec8-con{
+    min-height: 200vh;
+}
+.sec8{
+    min-height: 190vh;
+}
+.section-title-2 h2{
+    color: #37517e;
+    position: relative;
+    padding-bottom:15px;
+}
+.section-title-2 h2::before{
+     content: "";
+     display: block;
+     width: 120px;
+     height: 1px;
+     background-color: rgba(128, 128, 128, 0.596);
+     position: absolute;
+     bottom: 1px;
+      left: calc(50% - 60px);
+}
+.section-title-2 h2::after{
+    content: "";
+    display: block;
+    width: 40px;
+    height: 4px;
+    background-color: #47b2e4;
+    position: absolute;
+    bottom: 0px;
+    left: calc(50% - 20px);
+}
+.sec8-dann{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+
+}
+.all-1{
+    width: 60px;
+    height: 30px;
+    text-align: center;
+    border-radius: 30px;
+    border: 2px solid #47b2e4 ;
+    text-decoration: none;
+    color: white;
+    background-color: #47b2e4;
+}
+.all{
+    width: 60px;
+    height: 30px;
+    text-align: center;
+
+    margin-left: 20px;
+    color: black;
+    text-decoration: none;
+}
+.all:hover{
+    background-color: #47b2e4;
+    color: white;
+    border-radius: 30px;
+    border: 2px solid #47b2e4 ;
+}
+.sec8-2{
+    position: relative;
+    min-height: 100vh;
+}
+
+
+
+/* ....................................................sec9........................................... */
+#team{
+  min-height: 115vh;
+    background-color: #f3f5fa;
+}
+.sec9-h2{
+    position: relative;
+    margin-bottom: 20px;
+}
+.sec9-h2::before {
+    content: "";
+    width: 110px;
+    height: 1px;
+    background-color: rgba(128, 128, 128, 0.541);
+    display: block;
+    position: absolute;
+    bottom: -10px;
+    left: calc(50% - 55px);
+}
+
+.sec9-h2::after {
+    content: "";
+    width: 60px;
+    height: 3px;
+    background-color:#47b2e4;
+    display: block;
+    position: absolute;
+    bottom: -11px;
+    left: calc(50% - 30px);
+}
+
+.sec9-inbox1{
+    height: 220px;
+    background-color: #ffff;
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding: 30px;
+
+}
+.team-photo{
+    width: 180px;
+    overflow: hidden;
+    border-radius: 50%;
+
+}
+.half-inbox1{
+margin-left: 20px;
+}
+
+.ac-teams{
+    width: 150px;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+}
+.half-inbox1 .ac-teams a{
+width: 32px;
+height: 32px;
+background-color: rgba(180, 179, 179, 0.603);
+border-radius: 50px;
+display: flex;
+justify-content: center;
+align-items: center;
+color:#093f9e;
+}
+#team .col-lg-6{
+    transition: 0.3s ;
+}
+#team .col-lg-6:hover{
+    transform: translateY(-10px);
+}
+/* .......................................sec10.................................... */
+.sec10 h1{
+    position: relative;
+    padding-bottom: 20px;
+}
+.sec10 h1::before{
+    content: "";
+    width: 120px;
+    height: 2px;
+    background-color: gray;
+    display: block;
+    position: absolute;
+    left: calc(50% - 60px);
+    bottom: 0px;
+}
+.sec10 h1::after{
+    content: "";
+    width: 50px;
+    height: 4px;
+    background-color:#47b2e4;
+    display: block;
+    position: absolute;
+    left: calc(50% - 25px);
+    bottom: -1px;
+}
+.sec10-inbox{
+    height: 530px;
+    box-shadow: 0px 0px 10px rgb(233, 215, 215);
+    padding: 60px 0px 0px 45px
+}
+.get-started{
+    width: 140px;
+    height: 50px;
+    border: 1px solid #47b2e4;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* ............................................sec11................................................ */
+#sec11{
+    background-color: rgba(228, 222, 222, 0.322);
+}
+#sec11 .faq{
+    position: relative;
+    padding-bottom: 25px;
+}
+#sec11 .faq::before{
+    content: "";
+    width: 120px;
+    height: 1px;
+    background-color: gray;
+    display: block;
+    position: absolute;
+    left: calc(50% - 60px);
+    bottom: 0px;
+}
+#sec11 .faq::after{
+    content: "";
+    width: 60px;
+    height: 3px;
+    background-color: rgb(13, 190, 221);
+    display: block;
+    position: absolute;
+    left: calc(50% - 33px);
+    bottom: -1px;
+}
+.sec-inbox1{
+width: 80%;
+
+
+}
+.collapse-boxs{
+    min-width: 98%;
+    min-height: 60px;
+    background-color: white;
+    border-radius: 3px;
+    
+    margin-bottom: 20px;
+ 
+}
+ /* .circle{
+    font-size: 20px;
+    position: absolute;
+    left: 30px;
+    top: 16px;
+}
+.q1{
+    position: absolute;
+    left: 60px;
+    top: 20px;
+}
+.down-i4{
+    position: absolute;
+    right: 50px;
+    top: 18px;
+}  */
+
+/* .....................................media quary.................................... */
+@media screen and (max-width: 430px) {
+    .img-1{
+        min-height: 350px;
+       display: flex;
+      justify-content: center;
+      align-items:flex-end;
+
+    }
+    .img-1 img{
+        width:280px;
+    }
+    .animated{
+        animation: none;
+    }
+    /* .......................... */
+    .inbox0{
+        padding-top: 30px;
+    }
+    .res1{
+        text-align: center;
+    }
+    .res2{
+        text-align: center;
+        font-size: 18px;
+        padding-top: 7px;
+    }
+    .inbox1 .d-flex{
+        display: flex;
+        justify-content: center;
+    }
+ #sec1{
+        width: 100%;
+  height: 65vh;
+  background: #37517e;
+    }
+  }
+  /* .........................................media-quary-992......................................... */
+
+  @media screen and (min-width: 992px)
+{
+    
+.colframe1{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+.down-button h4{
+    font-size: 17px;
+    font-weight: bold;
+}
+.down-button p{
+    font-size: 13px;
+}
+
+.down-button{
+    /* min-width:91%;
+    min-height: 80px; */
+    background-color: #37517e;
+    
+    position: absolute;
+    left: 15px;
+    right: 15px;
+    /* left: calc(50% - 173px); */
+    bottom: 0;
+    opacity: 0;
+    padding: 10px 10px 0px 10px;
+    color: white;
+
+}
+.plus-icon{
+    position: absolute;
+    right: 60px;
+    top: calc(50% - 18px);
+}
+.link-icon{
+    position: absolute;
+    right: 20px;
+    top: calc(50% - 18px);
+}
+.photo-1:hover .down-button:hover{
+opacity: 0.8;
+transition: 0.4s;
+}
+.colframe2{
+    position: absolute;
+    left: 380px;
+    top: 0px;
+}
+.colframe3{
+    position: absolute;
+    left: 760px;
+    top: 0px;
+}
+.colframe6{
+    position: absolute;
+    left: 0px;
+    top: 390px;
+}
+.colframe5{
+    position: absolute;
+    left: 380px;
+    top: 270px;
+}
+.colframe4{
+    position: absolute;
+    left: 760px;
+    top: 230px;
+}
+.colframe7{
+    position: absolute;
+    left: 760px;
+    top: 497px;
+}
+.colframe8{
+    position: absolute;
+    left: 760px;
+    top: 760px;
+}
+.colframe9{
+    position: absolute;
+    left: 380px;
+    top: 835px;
+}
+}
+
+
+
+  /* ......................................media-quary-992px.......................................... */
+  @media screen and (max-width: 992px){
+
+    /* .sec8-1 .col-md-6{
+        width: 50%;
+    } */
+    .inbox-41{
+        margin-left: 0%;
+        
+    }
+
+     .col-md-6{
+        width: 50%;
+    }
+
+    .colframe11{
+        position: absolute;
+        left: 0px;
+        top: 0px;
+    }
+    .colframe22{
+        position: absolute;
+        left: 380px;
+        top: 0px;
+    }
+    .colframe33{
+        position: absolute;
+        left: 380px;
+        top: 250px;
+    }
+    .colframe66{
+        position: absolute;
+        left: 0px;
+        top: 620px;
+    }
+    .colframe55{
+        position: absolute;
+        left: 380px;
+        top: 470px;
+    }
+    .colframe44{
+        position: absolute;
+        left: 0px;
+        top: 370px;
+    }
+    .colframe77{
+        position: absolute;
+        left: 380px;
+        top: 1005px;
+    }
+    .colframe88{
+        position: absolute;
+        left: 0px;
+        top:1150px;
+    }
+    .colframe99{
+        position: absolute;
+        left: 380px;
+        top: 1250px;
+    }
+
+  }
+  /* ...............................................media-576................................... */
+
+  @media screen and (ma)
