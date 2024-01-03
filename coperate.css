@@ -149,6 +149,10 @@ bottom: 1px;
     padding-left: 0px;
     line-height: 35px;
 }
+.sec3 ul li{
+    position: relative;
+    padding-left: 30px;
+}
 .button-1{
     width: 175px;
     height: 50px;
@@ -168,6 +172,31 @@ color: white;
 .sec4{
     /* height: 100vh; */
     background-color: rgba(194, 189, 189, 0.356);
+}
+#according-list ul{
+  padding-left: 15%;
+}
+#according-list ul li{
+    background-color: #f3f5fa;
+    padding: 20px;
+    list-style: none;
+    margin-top: 15px;
+    
+}
+#according-list ul li a{
+    display: block;
+    position: relative;
+    padding-right: 30px;
+}
+#according-list ul li span{
+    padding-right: 10px;
+    color: #078ad6;
+}
+#according-list ul li i{
+    font-size: 20px;
+  position: absolute;
+  right: 0;
+  top: 0;
 }
 .first-1{
     min-width: 98%;
@@ -243,6 +272,7 @@ height: 60px;
 .section-title1 h1{
 color: #194aa5;
 position: relative;
+padding-bottom: 15px;
 
 }
 .section-title1 h1::before{
@@ -289,10 +319,11 @@ position: relative;
     background-size: cover;
 }
 .call-action{
-    height: 350px;
+    min-height: 350px;
     padding-top: 110px;
 }
 .call-action-1{
+    min-height: 140px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -486,9 +517,12 @@ color:#093f9e;
     bottom: -1px;
 }
 .sec10-inbox{
+    max-width: 100%;
     height: 530px;
     box-shadow: 0px 0px 10px rgb(233, 215, 215);
-    padding: 60px 0px 0px 45px
+    padding: 60px 0px 0px 45px;
+    margin-bottom: 25px;
+
 }
 .get-started{
     width: 140px;
@@ -589,7 +623,57 @@ width: 80%;
     #sec1{
         min-height: 750px;
     }
-
+    .sec3 ul li i{
+        position: absolute;
+        left: 5px;
+        top: 10px;
+       
+    }
+    #sec6{
+        min-height: 150vh;
+    }
+    .sec-dpara{
+        font-size: large;
+        text-align: justify;
+    }
+    .inbox-41 {
+        padding-top: 5%;
+      }
+    .inbox-41 h2{
+        font-size:xx-large;
+    }
+    .inbox-41 p{
+      text-align: justify;
+    }
+    .inbox-42 {
+        padding-top: 40px;
+        display: flex;
+        justify-content: center;
+      }
+      #according-list ul{
+        padding-left: 0px;
+      }
+      .call-action{
+        text-align: center;
+        font-weight: bolder;
+        min-height: 310px;
+    }
+    .call-action-1 {
+        display: flex;
+        justify-content: center;
+        align-items: start;
+        
+      }
+      .sec9-mt{
+        margin-top: 10px;
+        margin-bottom: 25px;
+      }
+      .sec10 p{
+        margin-top: 25px !important;
+      }
+      /* .sec10-box{
+        margin: auto !important;
+      } */
 }
   /* .........................................media-quary-992......................................... */
 
