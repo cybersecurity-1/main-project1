@@ -560,41 +560,8 @@ width: 80%;
 
 /* .....................................media quary.................................... */
 @media screen and (max-width: 430px) {
-    .img-1{
-        min-height: 350px;
-       display: flex;
-      justify-content: center;
-      align-items:flex-end;
-
-    }
-    .img-1 img{
-        width:280px;
-    }
-    .animated{
-        animation: none;
-    }
-    /* .......................... */
-    .inbox0{
-        padding-top: 30px;
-    }
-    .res1{
-        text-align: center;
-    }
-    .res2{
-        text-align: center;
-        font-size: 18px;
-        padding-top: 7px;
-    }
-    .inbox1 .d-flex{
-        display: flex;
-        justify-content: center;
-    }
- #sec1{
-        width: 100%;
-  height: 65vh;
-  background: #37517e;
-    }
-  }
+    
+}
   /* .........................................media-quary-992......................................... */
 
   @media screen and (min-width: 992px)
