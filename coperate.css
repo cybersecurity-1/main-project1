@@ -559,7 +559,7 @@ width: 80%;
 }  */
 
 /* .....................................media quary.................................... */
-/* @media screen and (max-width: 430px) {
+@media screen and (max-width: 430px) {
     .img-1{
         min-height: 350px;
        display: flex;
@@ -573,7 +573,7 @@ width: 80%;
     .animated{
         animation: none;
     }
-    .......................... 
+    /* .......................... */
     .inbox0{
         padding-top: 30px;
     }
@@ -594,7 +594,7 @@ width: 80%;
   height: 65vh;
   background: #37517e;
     }
-  } */
+  }
   /* .........................................media-quary-992......................................... */
 
   @media screen and (min-width: 992px)
