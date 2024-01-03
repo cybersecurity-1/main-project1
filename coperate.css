@@ -560,6 +560,28 @@ width: 80%;
 
 /* .....................................media quary.................................... */
 @media screen and (max-width: 430px) {
+    .navbar .getstarted {
+        width: 100%;
+        text-align: center;
+      }
+      .animated{
+        width: 90%;
+        margin-top: 100px;
+      }
+      .img-1{
+        display: flex;
+        justify-content: center;
+      }
+      .inbox0{
+        padding-top: 30px;
+    }
+    .res1{
+        text-align: center;
+    }
+    .p1{
+        text-align: center;
+        font-size: larger;
+    }
 
 }
   /* .........................................media-quary-992......................................... */
@@ -650,7 +672,7 @@ transition: 0.4s;
     top: 835px;
 }
 }
-    
+
 
 
   /* ......................................media-quary-992px.......................................... */
