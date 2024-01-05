@@ -522,8 +522,10 @@ color:#093f9e;
     box-shadow: 0px 0px 10px rgb(233, 215, 215);
     padding: 60px 0px 0px 45px;
     margin-bottom: 25px;
+   
 
 }
+
 .get-started{
     width: 140px;
     height: 50px;
@@ -561,36 +563,61 @@ color:#093f9e;
     left: calc(50% - 33px);
     bottom: -1px;
 }
-.sec-inbox1{
-width: 80%;
 
 
+/* ..................................................................... */
+.collapse-boxs ul{
+    padding-left: 0px !important;
 }
-.collapse-boxs{
-    min-width: 98%;
-    min-height: 60px;
+.collapse-boxs ul li{
+    min-width: 70%;
+    min-height: 40px;
     background-color: white;
-    border-radius: 3px;
+    padding: 20px;
+    margin-top: 20px;
+}
+.collapse-boxs ul li a{
+    display: block;
+    position: relative;
+    color: black;
     
-    margin-bottom: 20px;
- 
 }
- /* .circle{
-    font-size: 20px;
-    position: absolute;
-    left: 30px;
-    top: 16px;
+.collapse-boxs ul li span{
+    padding-right: 10px;
+    color: #078ad6;
 }
-.q1{
+.collapse-boxs ul li .bi-chevron-down{
     position: absolute;
-    left: 60px;
-    top: 20px;
+    right: 0;
+    top: 0;
+   
 }
-.down-i4{
+/* .......................................................................... */
+.sec12 h2{
+ position: relative;   
+ padding-bottom: 10px;
+}
+.sec12 h2::before{
+    content: "";
+    width: 120px;
+    height: 1px;
+    background-color: gray;
+    display: block;
     position: absolute;
-    right: 50px;
-    top: 18px;
-}  */
+    left: calc(50% - 60px);
+    bottom: 0px;
+}
+.sec12 h2::after{
+    content: "";
+    width: 50px;
+    height: 4px;
+    background-color:#47b2e4;
+    display: block;
+    position: absolute;
+    left: calc(50% - 25px);
+    bottom: -1px;
+}
+
 
 /* .....................................media quary.................................... */
 @media screen and (max-width: 430px) {
