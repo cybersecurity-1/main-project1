@@ -28,7 +28,7 @@ function myFunction() {
  
 
   function bharathvaj(){
-    var z, y = "bharathvaj";
+    var z, y = "Bharathvaj";
     z=(document.getElementById("sec13-inp").value);
     if(z==y){
       document.write("you are girls crush")
