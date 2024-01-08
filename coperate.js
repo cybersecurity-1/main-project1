@@ -24,3 +24,17 @@ function myFunction() {
       x.className = "bi-chevron-down";
     }
   }
+
+ 
+
+  function bharathvaj(){
+    var z, y = "bharathvaj";
+    z=(document.getElementById("sec13-inp").value);
+    if(z==y){
+      document.write("you are girls crush")
+    }
+    else{
+      window.alert("you are goodguy");
+    }
+  }
+  
