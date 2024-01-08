@@ -592,7 +592,11 @@ color:#093f9e;
     top: 0;
    
 }
+
 /* .......................................................................... */
+.sec12{
+margin-bottom: 50px;
+}
 .sec12 h2{
  position: relative;   
  padding-bottom: 10px;
@@ -617,8 +621,155 @@ color:#093f9e;
     left: calc(50% - 25px);
     bottom: -1px;
 }
+/* ............................................sec12.................................................. */
+.sec12-info{
+    width: 100%;
+   /* min-height: 100vh; */
+   box-shadow: 0px 0px 10px rgb(233, 215, 215);
+    padding: 40px;
+    border-top: 3px solid #078ad6;
+    border-bottom: 3px solid #078ad6;
+}
+.sec12-info i{
+    width: 45px;
+    height: 45px;
+    font-size: 20px;
+    color: #47b2e4;
+    background: #e7f5fb;
+    border-radius: 50px;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.sec12-info h4{
+    padding: 0px 0px 0px 60px;
+}
+.sec12-info p{
+    padding: 0px 0px 10px 60px;
+    color: #6182ba;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+.sec12-location i:hover{
+    background: #078ad6;
+    color: white;
+}
+.sec12-details{
+    width: 100%;
+    /* min-height: 100vh; */
+    box-shadow: 0px 0px 10px rgb(233, 215, 215);
+    padding: 40px;
+    border-top: 3px solid #078ad6;
+    border-bottom: 3px solid #078ad6;
+}
+.name-email{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#name ,#email {
+    width: 260px;
+    height: 40px;
+    margin-bottom: 40px;
+}
+#subject{
+    width: 100%;
+    height: 40px;
+    margin-bottom: 40px;
+}
+#message{
+    width: 100%;
+    height: ;
+}
+.send-message{
+    width: 180px;
+    height: 50px;
+    background-color: #47b2e4ea;
+    border-radius: 50px;
+    color: #ffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    
+}
+/* ..........................................sec13...................................... */
+.sec13{
+    background-color: rgba(241, 237, 237, 0.884);
+    padding-bottom: 40px;
+}
+.sec13-inbox1{
+    text-align: center;
+    margin: 20px 0px 0px 20px;
+    padding-top:40px;
+}
+#sec13-inp{
+    width: 50%;
+    height: 40px;
+    border: 0px solid;
+    border-radius: 20px;
+    padding: 0px 110px 0px 30px;
+    position: relative;
+}
+.subscribe{
+    width: 120px;
+    height: 40px;
+    border: 1px solid #47b2e4;
+    border-radius: 50px;
+    background-color: #47b2e4;
+    position: absolute;
+    left: calc(70% - 100px);
+    color: white;
 
+}
+/* ......................................sec14................................. */
+.sec14-inbox1,.sec14-inbox2,.sec14-inbox3,.sec14-inbox4{
+    margin-top: 50px;
+}
+.i-icon1{
+    width: 90%;
+    height: 50px;
+    /* border: 2px solid ; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 
+}
+.i-icon1 i{
+    width: 40px;
+    height: 40px;
+    background-color: #078ad6;
+    border-radius: 50px;
+    color: white;
+     display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+ul{
+    padding-left: 0px;
+}
+ul li{
+    line-height: 30px;
+}
+.con-sec14 ul li i{
+    font-size:x-small;
+    color: #47b2e4;
+}
+/* ........................................sec15........................................ */
+.sec15{
+    width: 100%;
+    height: 80px;
+    background: #37517e;
+}
+.sec15-inbox{
+    padding: 28px 10px 10px 10px;
+}
+.sec15-inbox span{
+    float: right;
+    color: white;
+}
 /* .....................................media quary.................................... */
 @media screen and (max-width: 430px) {
     .navbar .getstarted {
@@ -701,6 +852,38 @@ color:#093f9e;
       /* .sec10-box{
         margin: auto !important;
       } */
+      .sec12-details{
+        margin-top: 20px;
+      }
+      .name-email{
+        display:inline-block;
+      }
+      
+#sec13-inp{
+    width: 100%;
+    height: 40px;
+    border: 0px solid;
+    border-radius: 20px;
+    padding: 0px 110px 0px 30px;
+    position: relative;
+}
+.subscribe{
+    width: 120px;
+    height: 40px;
+    border: 1px solid #47b2e4;
+    border-radius: 50px;
+    background-color: #47b2e4;
+    position: absolute;
+    left: calc(90% - 93px);
+    color: white;
+
+}
+#subject{
+    width: 260px;
+}
+#message{
+    width: 260px;
+}
 }
   /* .........................................media-quary-992......................................... */
 
