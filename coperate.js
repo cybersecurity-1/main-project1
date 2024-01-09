@@ -31,7 +31,7 @@ function myFunction() {
     var z, y = "Bharathvaj";
     z=(document.getElementById("sec13-inp").value);
     if(z==y){
-      document.write("you are girls crush")
+      document.write("kundan")
     }
     else{
       window.alert("you are goodguy");
