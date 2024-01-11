@@ -31,16 +31,16 @@ function myFunction() {
     var z, y = ["bharathvaj","anas","tansil","surendar"];
     z=(document.getElementById("sec13-inp").value);
     if(z==y[0]){
-      document.write("poche mududa PUNDE"+" + "+"he use 1000s of c*nd*M")
+      document.write( " verification done ")
     }
     else if(z==y[1]) {
-      document.write("I don't have to say nothing bad about"+"<br>"+"THIS GUY")
+      document.write(" verification done")
     }
     else if(z==y[2]){
-      document.write("he is a toper"+"<br>"+"HARRY POTTER")
+      document.write(" verification done")
     }
     else if(z==y[3]){
-      document.write("he do extra activity with *"+"<br>"+"help of c*nd*m")
+      document.write(" verification done")
     }
     else {
       window.alert("you are goodguy");
