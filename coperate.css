@@ -664,6 +664,7 @@ margin-bottom: 50px;
     border-top: 3px solid #078ad6;
     border-bottom: 3px solid #078ad6;
 }
+
 .name-email{
     display: flex;
     align-items: center;
@@ -810,6 +811,9 @@ ul li{
         top: 10px;
        
     }
+    .photo-5,.photo-4,.photo-7,.photo-8,.photo-9{
+        margin-top: 15px;
+    }
     #sec6{
         min-height: 150vh;
     }
@@ -887,6 +891,45 @@ ul li{
 #message{
     width: 260px;
 }
+.down-button h4{
+    font-size: 17px;
+    font-weight: bold;
+}
+.down-button p{
+    font-size: 13px;
+}
+
+.down-button{
+    /* min-width:91%;
+    min-height: 80px; */
+    background-color: #37517e;
+    
+    position: absolute;
+    left: 15px;
+    right: 15px;
+    /* left: calc(50% - 173px); */
+    bottom: 0;
+    opacity: 0;
+    padding: 10px 10px 0px 10px;
+    color: white;
+    z-index: 1000;
+
+}
+.plus-icon{
+    position: absolute;
+    right: 60px;
+    top: calc(50% - 18px);
+}
+.link-icon{
+    position: absolute;
+    right: 20px;
+    top: calc(50% - 18px);
+}
+.photo-1:hover .down-button{
+opacity: 0.8;
+transition: 0.4s;
+}
+
 }
   /* .........................................media-quary-992......................................... */
 
@@ -931,10 +974,12 @@ ul li{
     right: 20px;
     top: calc(50% - 18px);
 }
-.photo-1:hover .down-button:hover{
+.photo-1:hover .down-button{
 opacity: 0.8;
 transition: 0.4s;
+z-index: 100;
 }
+
 .colframe2{
     position: absolute;
     left: 380px;
@@ -990,7 +1035,7 @@ transition: 0.4s;
         
     }
 
-     .col-md-6{
+     /* .col-md-6{
         width: 50%;
     }
 
@@ -1038,9 +1083,11 @@ transition: 0.4s;
         position: absolute;
         left: 380px;
         top: 1250px;
-    }
+    } */
 
   }
   /* ...............................................media-576................................... */
 
-  @media screen and (ma)
+  .rr{
+    overflow: hidden;
+  }

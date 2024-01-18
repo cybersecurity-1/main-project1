@@ -18,7 +18,7 @@ function myFunction() {
 
   function Function2() {
     var x = document.getElementById("demo-3");
-    if (x.className === "bi-chevron-down") {
+    if (x.className == "bi-chevron-down") {
       x.className = "bi-chevron-up";
     } else {
       x.className = "bi-chevron-down";
@@ -43,7 +43,7 @@ function myFunction() {
       document.write(" verification done")
     }
     else {
-      window.alert("you are goodguy");
+      window.alert("not verified");
     }
   }
   
